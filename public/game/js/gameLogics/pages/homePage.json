@@ -1,0 +1,23 @@
+{
+  "title": "Home Page",
+  "widgets": [
+    {
+      "type": "Button",
+      "components": [
+        {
+          "type": "print",
+          "properties": {
+            "text": "Play",
+            "position": { "x": 0 , "y": 0 },
+            "size": { "width": 50, "height": 25 },
+            "textStyle": { "color": "Black", "font": "Arial", "size": 60 }
+          }
+        },
+        {
+          "type": "action",
+          "properties": { "type": "pageLink", "pageLink": "Battle Page" }
+        }
+      ]
+    }
+  ]
+}
