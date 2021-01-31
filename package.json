@@ -1,7 +1,6 @@
 {
   "name": "chessduels",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,5 +19,14 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loyii91400/chessDuel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loyii91400/chessDuel/issues"
+  },
+  "homepage": "https://github.com/loyii91400/chessDuel#readme",
+  "description": ""
 }
