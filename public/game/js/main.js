@@ -14,7 +14,7 @@ window.addEventListener('load', function (event) {
   const update = function () {}
 
   const render = function () {
-    display.fill('#1c4969')
+    display.fill('#1c6969')
 
     display.render()
   }
