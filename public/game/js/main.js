@@ -18,11 +18,14 @@ window.addEventListener('load', function (event) {
     display.fill('#1c6969')
 
     game.world.page.widgets.forEach((widget) => {
-      widget.components.forEach((component) => {
-        if (component.type == "print") {
-          display.printWidget(component.properties)
-        }
-      });
+      // widget.components.forEach((component) => {
+      //   if (component.type == "print") {
+      //     display.printWidget(component.properties)
+      //   }
+      // });
+      if (widget.components.has("print")) {
+        display.printWidget(widget.components.get('print'))
+      }
     });
 
     display.render()
