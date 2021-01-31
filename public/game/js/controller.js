@@ -1,5 +1,11 @@
 const Controller = class {
   constructor () {
+    /*
+     * keyDict contains a dictionary for each key
+     * x: x position of cursor relative to canvas
+     * y: y position of cursor relative to canvas
+     * keyDown: boolean is the key down
+     */
     this.keyDict = {}
   }
 
