@@ -8,12 +8,13 @@ window.addEventListener('load', function (event) {
   // Functions
   const resize = function () {
     display.resize(window.innerWidth, window.innerHeight)
+    display.render()
   }
 
   const update = function () {}
 
   const render = function () {
-    display.fill('#1c4966')
+    display.fill('#1c4969')
 
     display.render()
   }
